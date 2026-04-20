@@ -13,7 +13,15 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Fraunces', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+      },
       colors: {
+        cream: "hsl(var(--cream))",
+        cocoa: "hsl(var(--cocoa))",
+        caramel: "hsl(var(--caramel))",
+        crust: "hsl(var(--crust))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
